@@ -1,0 +1,73 @@
+$logo-color: #fff;
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    background: #747474;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin:  40px 0 0 0;
+    position: relative;
+    flex-flow: row wrap;
+    .brand-container {
+        height: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        max-width: 250px;
+        .logo-text {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 900;
+            padding: 8px 8px;
+            height: auto;
+            width: 80;
+            line-height: 20px;
+            border: 2px solid $logo-color;
+            color: $logo-color;
+        }
+    }
+    .links-container {
+        flex: 2;
+        padding: 0 100px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        flex-flow: column wrap;
+        align-content: stretch;
+        a {
+            color: #fff;
+        }
+    }
+    .subscribe-container {
+        width: 100%;
+        max-width: 250px;
+        input {
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            margin: 0;
+            padding: 0 16px;
+            border-radius: 2px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            &:focus {
+                border: none;
+                outline: none;
+            }
+        }
+        p {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+}

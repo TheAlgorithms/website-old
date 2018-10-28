@@ -1,0 +1,99 @@
+.card-container {
+    width: 100%;
+    height: auto;
+    padding: 40px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.card-list {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    .card {
+        width: 244px;
+        height: auto;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+        background: #fff;
+        padding: 4px;
+        border-radius: 2px;
+        margin: 0 8px 0 0;
+        .feature-image {
+            object-fit: cover;
+            width: 100%;
+            height: 120px;
+        }
+        .title {
+            color: #212121;
+            font-size: 20px;
+            font-weight: 700;
+            padding: 8px;
+        }
+        .description {
+            padding: 0 8px;
+            color: #212121;
+            font-size: 14px;
+            line-height: 18px;
+            height:88px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+        }
+        .alg-button {
+            width: 80%;
+            margin: 26px auto;
+            border: 1px solid #212121;
+            text-align: center;
+            padding: 4px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition:  all linear 100ms;
+            &:hover {
+                background: #212121;
+                color: #fff;
+                transition:  all linear 200ms;
+            }
+        }
+        .tags-container {
+            width: 100%;
+            padding: 0 4px;
+            height: auto;
+            margin: 42px 0 8px 0;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: flex-end;
+            // TODO: max with and overflow tag
+            .tag-label {
+                width: auto;
+                min-width: 30px;
+                height: 24px;
+                margin: 0 6px 0 0;
+                font-size: 12px;
+                color: #fff;
+                background: #858585;
+                padding: 2px 6px;
+                line-height: 20px;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+        }
+    }
+}

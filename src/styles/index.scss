@@ -1,18 +1,32 @@
-body {font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-height: 2em; padding: 12px; box-sizing: border-box; color: #333; overflow: auto;
-background: #ffded1; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #ffded1 0%, #ffded1 50%, #ffc5af 50%, #ffc5af 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffded1), color-stop(50%,#ffded1), color-stop(50%,#ffc5af), color-stop(100%,#ffc5af)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); /* IE10+ */
-background: linear-gradient(135deg,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffded1', endColorstr='#ffc5af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+* {
+  box-sizing: border-box;
 }
 
-body, html {height: 100%;}
+body {
+  font-family: Montserrat, Helvetica Neue, sans-serif;
+  margin: 0 auto; line-height: 2em; padding: 12px;
+  color: #333;
+  overflow: auto;
+  background: #fff;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ //background: #ffded1; /* Old browsers */
+ //background: linear-gradient(135deg,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); /* W3C */
+}
+.main {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 
-.wrapper {box-sizing: border-box; height: 100%; overflow: auto; }
+.wrapper {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 
 
 a {text-decoration: none; color: #333; border-bottom: 3px solid #0068FF;}

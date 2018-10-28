@@ -1,0 +1,50 @@
+$logo-color: #0068FF;
+
+.header-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+    width :100%;
+    background: #fff;
+    color: #212121;
+    height: 88px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    .brand {
+        max-height: 100%;
+        .logo-text {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 32px;
+            text-transform: uppercase;
+            font-weight: 900;
+            padding: 12px;
+            border: 4px solid $logo-color;
+            color: $logo-color;
+            cursor: pointer;
+        }
+    }
+
+    .menu-container, .profile-container {
+        width: auto;
+        height: auto;
+        color: #212121;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        cursor: pointer;
+
+        .menu-item {
+            line-height: 24px;
+            margin: 0 20px;
+        }
+        .profile-image {
+            border-radius: 99px;
+            width: 55px;
+            height: 55px;
+            box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+            margin: 0 20px;
+        }
+    }
+}

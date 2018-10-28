@@ -1,1 +1,13 @@
 .DS_Store
+
+# ditro folder
+dist/
+
+#node modules
+node_modules/
+
+#vscode settings
+.vscode/
+
+#yarn error log
+yarn-error.log

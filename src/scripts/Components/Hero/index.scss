@@ -1,0 +1,81 @@
+
+.hero-container {
+    width: 100%;
+    height: 400px;
+    background: transparent;
+    color: #fff;
+    position: relative;
+    .hero-content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        max-width: 800px;
+        height: 100%;
+        margin: 0 auto;
+        .title {
+            font-size: 70px;
+            line-height: 70px;
+            font-weight: 900;
+            margin: 14px 0 ;
+            height: auto;
+        }
+        .subtitle {
+            font-size: 24px;
+            line-height: 30px;
+            margin: 8px 0;
+        }
+        .input-container {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            position: relative;
+            input {
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                margin: 0;
+                padding: 0 16px;
+                border-radius: 2px;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                &:focus {
+                    border: none;
+                    outline: none;
+                }
+            }
+            i.material-icons {
+                color: #78909C;
+                position: absolute;
+                font-size: 28px;
+                right: 14px;
+            }
+        }
+    }
+
+    .bg-image {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.5;
+        object-fit: cover;
+    }
+    .bg-image-filter {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -2;
+        background: #000;
+    }
+
+}
