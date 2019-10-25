@@ -5,9 +5,8 @@
 
 
 
-###Algorithms helps people find all the Algorithms and Data Structures for every single programming language at
-one single place
-  -C++
+###Algorithms helps people find all the Algorithms and Data Structures for every single programming language at one single place
+  
   -C
   -Python
   -Java
