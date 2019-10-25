@@ -5,7 +5,7 @@
 
 
 
-###Algorithms helps people find all the Algorithms and Data Structures for the following programming languages at one single place
+### Algorithms helps people find all the Algorithms and Data Structures for the following programming languages at one single place
   
   -C 
   
