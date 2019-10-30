@@ -71,6 +71,18 @@ div.grid {
 div.grid-item {
   margin-bottom: 20px;
   margin-top: 10px;
+  padding: 10px;
+}
+
+div.grid-item:hover{
+  box-shadow: 2px 2px 8px #ff555f;
+  border-radius: 5pt;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+div.grid-item:not(:hover){
+  transition: ease-in;
+  transition-duration: 0.3s;
 }
 
 .language-name:hover{
