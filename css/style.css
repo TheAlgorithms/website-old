@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   color: #333333b3;
   /* background: linear-gradient(to bottom right,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); */
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);  
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 
 html, body {
@@ -71,10 +71,14 @@ div.grid {
 div.grid-item {
   margin-bottom: 20px;
   margin-top: 10px;
+  transition: transform 0.3s linear;
 }
+div.grid-item:hover{
+  transform: scale(1.3);
+}
+
 
 .language-name:hover{
   border-bottom: 3px solid #1b6568;
   transition-duration: 100ms;
 }
-
