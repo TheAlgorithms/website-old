@@ -78,3 +78,6 @@ div.grid-item {
   transition-duration: 100ms;
 }
 
+.language-img:hover{
+  height:60px;
+}
