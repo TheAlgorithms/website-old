@@ -72,6 +72,23 @@ div.grid-item {
   margin-bottom: 20px;
   margin-top: 10px;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.grid-item:hover .overlay {
+  opacity: 0.3;
+}
+  
 
 .language-name:hover{
   border-bottom: 3px solid #1b6568;
