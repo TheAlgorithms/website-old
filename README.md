@@ -2,9 +2,8 @@
 [![Gitter](https://badges.gitter.im/the-algorithms/website.svg)](https://gitter.im/the-algorithms/website?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ### Introductory website for <a href="https://github.com/TheAlgorithms" target="_blank">TheAlgorithms</a>
-<a href="https://thealgorithms.github.io/website/" target="_blank"><p align="center"><img src="./images/favicon.png"/></p></a>
-
-<h3>TheAlgorithms is open source community established to help people find all the algorithms and data structures for every popular language at a single place.</h3>
+<a href="https://thealgorithms.github.io/website/" target="_blank"><p align="center"><img src="./images/favicon.png"/></
+  <h3>Algorithms the biggest weapon for the coders... in the biggest ocean of the coders.</h3>
 
 
 <p align="center"><h1>Algorithms Implementation in the following Programming Languages</h1></p>
