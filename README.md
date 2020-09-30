@@ -1,4 +1,4 @@
-# The Algorithms
+# Best Algorithms
 [![Gitter](https://badges.gitter.im/the-algorithms/website.svg)](https://gitter.im/the-algorithms/website?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ### Introductory website for <a href="https://github.com/TheAlgorithms" target="_blank">TheAlgorithms</a>
