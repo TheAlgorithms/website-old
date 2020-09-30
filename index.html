@@ -6,6 +6,13 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="./images/favicon.png" type="image/x-icon">
     <title>The Algorithms</title>
+	  <style>
+	  .toTop:hover{
+		  color:blue;
+		  text-decoration:underline;
+		  cursor:pointer;
+           }
+	  </style>
   </head>
   <body>
     <div class="container">
@@ -35,8 +42,14 @@
           <div class="grid-item"><a target="_blank" href="https://github.com/TheAlgorithms/MATLAB-Octave"><img src="./images/svg/matlab.png" height="50px" alt="MATLAB/Octave Logo"/><br><span class="language-name">MATLAB/<br>Octave</span></a></div>
 		  <div class="grid-item"><a target="_blank" href="https://github.com/TheAlgorithms/Dart"><img src="./images/svg/dart.png" height="50px" alt="Dart Logo"/><br><span class="language-name">Dart</span></a></div>
         </div>
+	      <a class="toTop" onclick="scrollToTop()" style="float:right"> Go to top</a>
       </main>
       
     </div>
+	  <script>
+		  function scrollToTop() { 
+            window.scrollTo(0, 0); 
+        } 
+	  </script>
   </body>
 </html>
