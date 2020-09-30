@@ -4,7 +4,7 @@
 ### Introductory website for <a href="https://github.com/TheAlgorithms" target="_blank">TheAlgorithms</a>
 <a href="https://thealgorithms.github.io/website/" target="_blank"><p align="center"><img src="./images/favicon.png"/></p></a>
 
-<h3>TheAlgorithms is open source community established to help people find all the algorithms and data structures for every popular language at a single place.</h3>
+<h3>TheAlgorithms is open source community established to help people find all the algorithms and data structures for every popular language at single platform.</h3>
 
 
 <p align="center"><h1>Algorithms Implementation in the following Programming Languages</h1></p>
