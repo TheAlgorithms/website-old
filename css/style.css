@@ -78,3 +78,7 @@ div.grid-item {
   transition-duration: 100ms;
 }
 
+.copyright{
+    font-family: 'Courier Prime', monospace;
+    line-height: 2;
+}
