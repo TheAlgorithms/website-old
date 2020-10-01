@@ -4,10 +4,10 @@
 ### Introductory website for <a href="https://github.com/TheAlgorithms" target="_blank">TheAlgorithms</a>
 <a href="https://thealgorithms.github.io/website/" target="_blank"><p align="center"><img src="./images/favicon.png"/></p></a>
 
-<h3>TheAlgorithms is open source community established to help people find all the algorithms and data structures for every popular language at a single place.</h3>
+<h3>The Algorithms is open source community established to help people for finding all the algorithms and data structures for every popular language at a single place easily.</h3>
 
 
-<p align="center"><h1>Algorithms Implementation in the following Programming Languages</h1></p>
+<p align="center"><h1>Algorithms Implementation in the following Programming Languages :</h1></p>
 
 <ul>
   <li><a href="https://github.com/TheAlgorithms/C-Plus-Plus" target="_blank">C++</a></li>
