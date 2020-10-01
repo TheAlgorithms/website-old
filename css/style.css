@@ -75,6 +75,6 @@ div.grid-item {
 
 .language-name:hover{
   border-bottom: 3px solid #1b6568;
-  transition-duration: 100ms;
+  transition-duration: 200ms;
 }
 
