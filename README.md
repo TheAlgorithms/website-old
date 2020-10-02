@@ -10,7 +10,7 @@
 <p align="center"><h1>Algorithms Implementation in the following Programming Languages :</h1></p>
 
 <ul>
-  <li color="violet"><a href="https://github.com/TheAlgorithms/C-Plus-Plus" target="_blank">C++</a></li>
+  <li><a href="https://github.com/TheAlgorithms/C-Plus-Plus" target="_blank">C++</a></li>
   <li><a href="https://github.com/TheAlgorithms/Python" target="_blank">PYTHON</a></li>
   <li><a href="https://github.com/TheAlgorithms/Java" target="_blank">JAVA</a></li>
   <li><a href="https://github.com/TheAlgorithms/C" target="_blank">C</a></li>
@@ -24,3 +24,11 @@
   <li><a href="https://github.com/TheAlgorithms/Scala" target="_blank">SCALA</a></li>
   <li><a href="https://github.com/TheAlgorithms/Dart" target="_blank">DART</a></li>
 </ul>
+
+### _The END Thing You Should Now_
+```html
+Making An Amazing Project,
+    From scratch, I learn to code .That's really a fun the amazing thing is that how are you creative project will be more impressive.
+         You should try to more creative which come from what you do in a day.We should'nt stop Anytime Anywhere we need a continuous progress/growth to build as a best creator.
+```
+>_**KEEP SMILING AND WORK HARDER**_
