@@ -10,7 +10,7 @@
 <p align="center"><h1>Algorithms Implementation in the following Programming Languages :</h1></p>
 
 <ul>
-  <li><a href="https://github.com/TheAlgorithms/C-Plus-Plus" target="_blank">C++</a></li>
+  <li color="violet"><a href="https://github.com/TheAlgorithms/C-Plus-Plus" target="_blank">C++</a></li>
   <li><a href="https://github.com/TheAlgorithms/Python" target="_blank">PYTHON</a></li>
   <li><a href="https://github.com/TheAlgorithms/Java" target="_blank">JAVA</a></li>
   <li><a href="https://github.com/TheAlgorithms/C" target="_blank">C</a></li>
