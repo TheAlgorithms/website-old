@@ -2,9 +2,12 @@ body {
   font-family: Montserrat, Helvetica Neue, sans-serif;
   line-height: 2em;
   box-sizing: border-box;
-  color: #333333b3;
+  color: #4c4177;
   /* background: linear-gradient(to bottom right,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); */
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);  
+  background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);  
+  height:100vh;
+  overflow: hidden;
+  color: white;
 }
 
 html, body {
@@ -14,12 +17,12 @@ html, body {
 
 a {
   text-decoration: none;
-  color: #1b6568;
+  color: #98cfd1;
   transition-duration: 100ms;
 }
 .github {
   float: right;
-  fill: #445978;
+  fill: #031e47;
   padding-top: 5px;
 }
 
@@ -28,6 +31,7 @@ p {
   font-weight: 300;
   font-size: 23px;
   text-align: center;
+ 
 }
 
 .name {
@@ -46,8 +50,8 @@ p {
   padding: 12px;
   line-height: normal;
   text-align: center;
-  border: 4px solid #445978;
-  color: #445978;
+  border: 4px solid #e1e5eb;
+  color: #8ab0e9;
 }
 
 main {
@@ -66,15 +70,25 @@ div.grid {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  width:90%;
+  padding: 10px;
+  margin: 100px auto;
+  justify-content: center;
 }
 
 div.grid-item {
   margin-bottom: 20px;
   margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  transition: 1s;
 }
 
 .language-name:hover{
   border-bottom: 3px solid #1b6568;
   transition-duration: 100ms;
+}
+div.grid-item:hover{
+  transform: scale(1.3);
 }
 
