@@ -23,4 +23,7 @@
   <li><a href="https://github.com/TheAlgorithms/MATLAB-Octave" target="_blank">MATLAB-Octave</a></li>
   <li><a href="https://github.com/TheAlgorithms/Scala" target="_blank">SCALA</a></li>
   <li><a href="https://github.com/TheAlgorithms/Dart" target="_blank">DART</a></li>
+  <li><a href="https://github.com/TheAlgorithms/php" target="_blank">PHP</a></li>
+  <li><a href="https://github.com/TheAlgorithms/haskell" target="_blank">Haskell</a></li>
+  <li><a href="https://github.com/TheAlgorithms/F-sharp" target="_blank">F#</a></li>
 </ul>
