@@ -66,15 +66,21 @@ div.grid {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2%;
 }
 
 div.grid-item {
   margin-bottom: 20px;
   margin-top: 10px;
+  transition: 1s;
 }
+div.grid-item:hover {
 
-.language-name:hover{
-  border-bottom: 3px solid #1b6568;
-  transition-duration: 100ms;
+   border-radius:15px;
+   background-color: #333333b3;
+
+
 }
-
+div.grid-item:hover .language-name{
+   color:white;
+}
