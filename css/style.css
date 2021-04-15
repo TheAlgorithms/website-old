@@ -78,3 +78,40 @@ div.grid-item {
   transition-duration: 100ms;
 }
 
+
+/* SOCIAL LINKS STYLE */
+
+.fa {
+    color: #999;
+    font-size: 28px;
+    margin-left: 10px;
+    transition: 0.8s;
+    padding: 2px 2px 2px 2px;;
+}
+
+.sofb:hover {
+    color: #5983ff;
+}
+
+.soig:hover {
+    color: #ff59d0;
+    transition: 0.5s;
+}
+
+.sogh:hover{
+    color: white;
+}
+
+.sotw:hover {
+    color: #17c5ff;
+}
+
+.soyt:hover {
+    color: #ff5959;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.ser {
+     color: #999;
+}
