@@ -2,9 +2,10 @@ body {
   font-family: Montserrat, Helvetica Neue, sans-serif;
   line-height: 2em;
   box-sizing: border-box;
-  color: #333333b3;
+  color: #9ce8ff;
+  background: #394852;
   /* background: linear-gradient(to bottom right,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); */
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);  
+  /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);   */
 }
 
 html, body {
@@ -14,12 +15,11 @@ html, body {
 
 a {
   text-decoration: none;
-  color: #1b6568;
+  color: #9ce7ff;
   transition-duration: 100ms;
 }
 .github {
-  float: right;
-  fill: #445978;
+  fill: #9ce7ff;
   padding-top: 5px;
 }
 
@@ -28,6 +28,18 @@ p {
   font-weight: 300;
   font-size: 23px;
   text-align: center;
+  color: black;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #000000;
+  border-color: #3c3c3c;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgb(0, 0, 0);
 }
 
 .name {
@@ -46,8 +58,13 @@ p {
   padding: 12px;
   line-height: normal;
   text-align: center;
-  border: 4px solid #445978;
-  color: #445978;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #ffffff00;
+  border-radius: .3rem;
 }
 
 main {
@@ -58,7 +75,7 @@ main::after {
   position: relative;
   top: 40px;
   left: 300px;
-  color: #445978;
+  color: #9ce7ff;
   font-size: 44px;
 }
 
@@ -74,7 +91,7 @@ div.grid-item {
 }
 
 .language-name:hover{
-  border-bottom: 3px solid #1b6568;
+  border-bottom: 3px solid #9ce7ff;
   transition-duration: 100ms;
 }
 
