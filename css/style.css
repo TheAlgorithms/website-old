@@ -4,12 +4,71 @@ body {
   box-sizing: border-box;
   color: #333333b3;
   /* background: linear-gradient(to bottom right,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); */
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);  
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 
 html, body {
   height: 100%;
   margin: 0;
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.style p {
+  color:#000;
+  font-size:25px;
 }
 
 a {
@@ -77,4 +136,3 @@ div.grid-item {
   border-bottom: 3px solid #1b6568;
   transition-duration: 100ms;
 }
-
