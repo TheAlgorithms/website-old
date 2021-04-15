@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   color: #333333b3;
   /* background: linear-gradient(to bottom right,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); */
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);  
+  background-image: linear-gradient(to right, #ecaf69 0%, #e79478 100%);  
 }
 
 html, body {
@@ -16,6 +16,10 @@ a {
   text-decoration: none;
   color: #1b6568;
   transition-duration: 100ms;
+}
+
+a:hover {
+  color: #30979b;
 }
 .github {
   float: right;
